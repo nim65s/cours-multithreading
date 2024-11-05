@@ -5,3 +5,8 @@ description = "Support de cours multithreading 3A SRI 2024-2025"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.0.1",
+]
