@@ -8,5 +8,16 @@ Affiche le temps nécessaire à la résolution d’un problème linéaire de tai
 
 ```bash
 $ ./task.py
-2.6477803950001544
+task: 2.6477803950001544
+```
+## Lancement de plusieurs sous processus
+
+```bash
+./sub.py
+task: 10.228055024000241
+task: 10.310156592000567
+[…]
+task: 10.578246373000184
+total: 11.593499044000055
+mean: 0.7245936902500034
 ```
