@@ -34,3 +34,6 @@ task: 10.754035089999888
 total: 23.090329153999846
 mean: 0.7215727860624952
 ```
+
+NB: on peut facilement remplacer `Process` par `Thread` dans ce programme, mais en pratique c’est contre-productif dans
+ce cas.
