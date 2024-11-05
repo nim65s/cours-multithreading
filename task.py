@@ -4,15 +4,15 @@ from time import perf_counter
 import numpy as np
 
 
-def task(size=6000):
+def task(size: int = 6000) -> float:
     a = np.random.rand(size, size)
     b = np.random.rand(size)
 
     start = perf_counter()
     _x = np.linalg.solve(a, b)
     end = perf_counter()
-    print(end - start)
+    return end - start
 
 
 if __name__ == "__main__":
-    task()
+    print("task:", task())
