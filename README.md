@@ -2,6 +2,8 @@
 
 Support de cours multithreading 3A SRI 2024-2025
 
+# Python
+
 ## Lancement d’une tâche longue
 
 Affiche le temps nécessaire à la résolution d’un problème linéaire de taille 6000
@@ -46,3 +48,13 @@ avec asyncio
 $ ./async-web.py
 5.072448928000085
 ```
+
+# C++
+
+## Exemples d’utilisation de thread et de lock
+
+```
+g++ threads.cpp -o threads && ./threads
+```
+
+-> Ça doit afficher les chiffres de 0 à 9 dans un ordre indéfini sans corrompre la sortie standard
