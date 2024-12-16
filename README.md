@@ -64,3 +64,9 @@ g++ threads.cpp -o threads && ./threads
 ```
 g++ banque.cpp -o banque && ./banque
 ```
+
+## Exemple d’utilisation d’OpenMP
+
+```
+g++ -fopenmp openmp.cpp -o openmp && OMP_NUM_THREADS=8 ./openmp
+```
