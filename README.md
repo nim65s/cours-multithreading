@@ -58,3 +58,9 @@ g++ threads.cpp -o threads && ./threads
 ```
 
 -> Ça doit afficher les chiffres de 0 à 9 dans un ordre indéfini sans corrompre la sortie standard
+
+## Exemple de deadlock
+
+```
+g++ banque.cpp -o banque && ./banque
+```
